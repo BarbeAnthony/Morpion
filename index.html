@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/morpion.css" rel="stylesheet">
+    <link href="favicon.jpg" rel="icon">
+    <title>Morpion</title>
+</head>
+<nav class="navbar navbar-light bg-light justify-content-center">
+    <a class="navbar-brand" href="#">Morpion</a>
+</nav>
+
+<body>
+    <p id="display">Game message here</p>
+    <div id="morpion" class="container">
+        <div class="row justify-content-evenly">
+            <button id="btn6" class="col-4 morpionTile"></button>
+            <button id="btn7" class="col-4 morpionTile"></button>
+            <button id="btn8" class="col-4 morpionTile"></button>
+        </div>
+        <div class="row justify-content-evenly">
+            <button id="btn3" class="col-4 morpionTile"></button>
+            <button id="btn4" class="col-4 morpionTile"></button>
+            <button id="btn5" class="col-4 morpionTile"></button>
+        </div>
+        <div class="row justify-content-evenly">
+            <button id="btn0" class="col-4 morpionTile"></button>
+            <button id="btn1" class="col-4 morpionTile"></button>
+            <button id="btn2" class="col-4 morpionTile"></button>
+        </div>
+    </div>
+    <div id="score">
+        <span> Score : X = <span id="scorePlayer">0</span> | nul = <span id="scoreNul">0</span> | O = <span id="scoreIA">0</span></span>
+    </div>
+    <div id="buttons">
+        <button id="btnPlayAgain" class="btnMain">play again</button>
+        <button id="btnResetScores" class="btnMain">reset scores</button>
+    </div>
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/morpion.js"></script>
+</body>
+
+</html>
